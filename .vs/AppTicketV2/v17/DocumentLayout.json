@@ -1,0 +1,364 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\ef\\dbcontext\\appticketdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\ef\\dbcontext\\appticketdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\controllers\\organizationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\controllers\\organizationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\controllers\\operatorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\controllers\\operatorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\ef\\models\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\ef\\models\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\controllers\\portalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\controllers\\portalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\appticketv2.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\appticketv2.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\ef\\models\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\ef\\models\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\ef\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\ef\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\controllers\\widgetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\controllers\\widgetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\ef\\models\\operator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\ef\\models\\operator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\ef\\models\\operatorrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\ef\\models\\operatorrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\migrations\\20241114195725_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\migrations\\20241114195725_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\migrations\\20241114041527_initialization2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\migrations\\20241114041527_initialization2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\migrations\\20241114041326_initialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\migrations\\20241114041326_initialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Portal.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\EF\\Models\\Portal.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\EF\\Models\\Portal.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\EF\\Models\\Portal.cs",
+              "RelativeToolTip": "AppTicketV2\\EF\\Models\\Portal.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T19:16:18.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PortalsController.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\PortalsController.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\Controllers\\PortalsController.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\PortalsController.cs",
+              "RelativeToolTip": "AppTicketV2\\Controllers\\PortalsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T19:11:05.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppTicketV2.http",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\AppTicketV2.http",
+              "RelativeDocumentMoniker": "AppTicketV2\\AppTicketV2.http",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\AppTicketV2.http",
+              "RelativeToolTip": "AppTicketV2\\AppTicketV2.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-11-14T08:45:33.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Organization.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\EF\\Models\\Organization.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\EF\\Models\\Organization.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\EF\\Models\\Organization.cs",
+              "RelativeToolTip": "AppTicketV2\\EF\\Models\\Organization.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T17:28:35.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\appsettings.json",
+              "RelativeDocumentMoniker": "AppTicketV2\\appsettings.json",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\appsettings.json",
+              "RelativeToolTip": "AppTicketV2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-14T03:46:56.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrganizationsController.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\OrganizationsController.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\Controllers\\OrganizationsController.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\OrganizationsController.cs",
+              "RelativeToolTip": "AppTicketV2\\Controllers\\OrganizationsController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAawBoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T16:56:54.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppTicketDBContext.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\EF\\DBContext\\AppTicketDBContext.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\EF\\DBContext\\AppTicketDBContext.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\EF\\DBContext\\AppTicketDBContext.cs",
+              "RelativeToolTip": "AppTicketV2\\EF\\DBContext\\AppTicketDBContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T03:48:16.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MessagesController.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\MessagesController.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\Controllers\\MessagesController.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\MessagesController.cs",
+              "RelativeToolTip": "AppTicketV2\\Controllers\\MessagesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T19:26:37.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\Controllers\\RolesController.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "AppTicketV2\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T19:28:21.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OperatorsController.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\OperatorsController.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\Controllers\\OperatorsController.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\OperatorsController.cs",
+              "RelativeToolTip": "AppTicketV2\\Controllers\\OperatorsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T19:27:22.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Message.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\EF\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\EF\\Models\\Message.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\EF\\Models\\Message.cs",
+              "RelativeToolTip": "AppTicketV2\\EF\\Models\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T16:54:10.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Program.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\Program.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Program.cs",
+              "RelativeToolTip": "AppTicketV2\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T04:06:40.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WidgetsController.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\WidgetsController.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\Controllers\\WidgetsController.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\WidgetsController.cs",
+              "RelativeToolTip": "AppTicketV2\\Controllers\\WidgetsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T16:22:45.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "AppTicketV2\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T08:33:01.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Operator.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\EF\\Models\\Operator.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\EF\\Models\\Operator.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\EF\\Models\\Operator.cs",
+              "RelativeToolTip": "AppTicketV2\\EF\\Models\\Operator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T16:54:19.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OperatorRole.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\EF\\Models\\OperatorRole.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\EF\\Models\\OperatorRole.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\EF\\Models\\OperatorRole.cs",
+              "RelativeToolTip": "AppTicketV2\\EF\\Models\\OperatorRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T16:54:18.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20241114195725_mig1.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Migrations\\20241114195725_mig1.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\Migrations\\20241114195725_mig1.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Migrations\\20241114195725_mig1.cs",
+              "RelativeToolTip": "AppTicketV2\\Migrations\\20241114195725_mig1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T19:57:25.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "AppTicketV2\\appsettings.Development.json",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\appsettings.Development.json",
+              "RelativeToolTip": "AppTicketV2\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-14T07:48:25.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20241114041527_initialization2.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Migrations\\20241114041527_initialization2.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\Migrations\\20241114041527_initialization2.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Migrations\\20241114041527_initialization2.cs",
+              "RelativeToolTip": "AppTicketV2\\Migrations\\20241114041527_initialization2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T04:15:27.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AppTicketV2\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AppTicketV2\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-14T07:50:28.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20241114041326_initialization.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Migrations\\20241114041326_initialization.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\Migrations\\20241114041326_initialization.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Migrations\\20241114041326_initialization.cs",
+              "RelativeToolTip": "AppTicketV2\\Migrations\\20241114041326_initialization.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T04:13:27.15Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

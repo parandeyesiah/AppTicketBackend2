@@ -1,0 +1,10 @@
+@AppTicketV2_HostAddress = http://localhost:5041
+
+GET {{AppTicketV2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+Send request
+POST {{AppTicketV2_HostAddress}}/api/Organizations/
+Accept: application/json
+
+###
