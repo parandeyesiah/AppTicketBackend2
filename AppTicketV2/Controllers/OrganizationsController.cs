@@ -5,8 +5,14 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using AppTicketV2.EF.DBContext;
-using AppTicketV2.EF.Models;
+using DataAccess.EF.DBContext;
+using DataAccess.EF.Models;
+using AppTicketV2.ViewModels;
+using DataAccess;
+using DataAccess.EF.DBContext;
+using DataAccess.EF.Models;
+using AppTicketV2.Mappers;
+using AppTicketV2.DTOs;
 
 namespace AppTicketV2.Controllers
 {
@@ -23,86 +29,88 @@ namespace AppTicketV2.Controllers
 
         // GET: api/Organizations
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Organization>>> GetOrganizations()
+        public async Task<IEnumerable<OrganizationViewModel>> GetOrganizations()
         {
-            return await _context.Organizations.ToListAsync();
+            //return await _context.Organizations.ToListAsync();
+            IEnumerable<Organization> orgs =  OrganizationData.GetAllOrganizations(_context);
+            List<OrganizationViewModel> output = new List<OrganizationViewModel>();
+            orgs.ToList().ForEach(org => {
+                OrganizationViewModel organ = new OrganizationViewModel();
+                organ = OrganizationMapper.OrganizationToOrganizationModel(org);
+                
+                output.Add(organ);
+            });
+
+            return output;
         }
 
-        // GET: api/Organizations/5
+        //GET: api/Organizations/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Organization>> GetOrganization(int id)
+        public async Task<OrganizationViewModel> GetOrganization(int id)
         {
-            var organization = await _context.Organizations.FindAsync(id);
-
+            var organization = await OrganizationData.GetOrganizationById(_context,id);
+            
             if (organization == null)
             {
-                return NotFound();
+                return new OrganizationViewModel();
             }
-
-            return organization;
+            OrganizationViewModel organ = new OrganizationViewModel();
+            organ = OrganizationMapper.OrganizationToOrganizationModel(organization);
+            return organ;
         }
 
-        // PUT: api/Organizations/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        //// PUT: api/Organizations/5
+        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutOrganization(int id, Organization organization)
+        public async Task<APIOutput> PutOrganization(OrganizationDTO organization)
         {
-            if (id != organization.OrganizationID)
+            APIOutput output = new APIOutput();
+            var orgEntity = await OrganizationData.GetOrganizationById(_context, Int32.Parse(organization.OrganizationID));
+            if (orgEntity == null)
             {
-                return BadRequest();
+                output.status = "false";
+                output.message = "چنین سازمانی یافت نشد.";
+                return output;
             }
+            OrganizationViewModel orgvm = OrganizationMapper.OrganizationDtoToOrganizationViewModel(organization);
+            orgEntity = OrganizationMapper.OrganizationViewModelToOrganization(orgvm, orgEntity);
+            await _context.SaveChangesAsync();
 
-            _context.Entry(organization).State = EntityState.Modified;
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!OrganizationExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
 
-            return NoContent();
+            return output;
         }
 
-        // POST: api/Organizations
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        //// POST: api/Organizations
+        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Organization>> PostOrganizations([FromBody] Organization organization)
+        public async Task<APIOutput> PostOrganizations([FromBody] OrganizationDTO organization)
         {
-            _context.Organizations.Add(organization);
+            APIOutput output = new APIOutput();
+            OrganizationViewModel orgvm = OrganizationMapper.OrganizationDtoToOrganizationViewModel(organization);
+            Organization orgEntity = new Organization();
+            orgEntity = OrganizationMapper.OrganizationViewModelToOrganization(orgvm, orgEntity);
+            //_context.Organizations.Add(organization);
+            OrganizationData.CreateOrganization(_context, orgEntity);
             await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetOrganization", new { id = organization.OrganizationID }, organization);
+            return output ;
+           // return CreatedAtAction("GetOrganization", new { id = organization.OrganizationID }, organization);
         }
 
-        // DELETE: api/Organizations/5
+        //// DELETE: api/Organizations/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteOrganization(int id)
+        public APIOutput DeleteOrganization(int id)
         {
-            var organization = await _context.Organizations.FindAsync(id);
-            if (organization == null)
-            {
-                return NotFound();
-            }
+            APIOutput output = new APIOutput();
+            OrganizationData.DeleteOrganization(_context, id);
+            _context.SaveChanges();
 
-            _context.Organizations.Remove(organization);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
+            return output;
         }
 
-        private bool OrganizationExists(int id)
-        {
-            return _context.Organizations.Any(e => e.OrganizationID == id);
-        }
+        //private bool OrganizationExists(int id)
+        //{
+        //    return _context.Organizations.Any(e => e.OrganizationID == id);
+        //}
     }
 }

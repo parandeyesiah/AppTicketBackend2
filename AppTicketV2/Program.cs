@@ -1,8 +1,8 @@
-using AppTicketV2.EF.DBContext;
+using DataAccess.EF.DBContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.OpenApi.Models;
-
+using DataAccess;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -24,7 +24,7 @@ Console.WriteLine("Configuration Paths:");
 //var options = builder.Configuration.config
 //foreach (var provider in builder.Configuration.Pro) { Console.WriteLine(provider); }
 string? cs = builder.Configuration.GetConnectionString("ConnectionString");
-builder.Services.AddDbContext<AppTicketDBContext>(options =>
+builder.Services.AddDbContext<DataAccess.EF.DBContext.AppTicketDBContext>(options =>
     options.UseSqlServer(cs));
 
 builder.Services.AddSwaggerGen(c =>
