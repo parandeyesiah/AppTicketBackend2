@@ -13,9 +13,10 @@ namespace DataAccess.EF.Models
         public string PortalUrl { get; set; }
         public int ParentPortalID { get; set; }
         public int OrgID { get; set; }
-        public WidgetProperty WidgetProperty{ get; set; }
+        public WidgetProperty? WidgetProperty{ get; set; }
         public Organization Organization { get; set; }
         public Widget Widget { get; set; }
         public int WidgetID { get; set; }
+        public int? WidgetPropertyID { get; set; }
     }
 }

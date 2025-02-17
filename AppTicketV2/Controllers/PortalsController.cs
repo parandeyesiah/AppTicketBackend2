@@ -7,6 +7,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using DataAccess.EF.DBContext;
 using DataAccess.EF.Models;
+using AppTicketV2.DTOs;
+using AppTicketV2.Mappers;
+using AppTicketV2.ViewModels;
+using DataAccess;
 
 namespace AppTicketV2.Controllers
 {
@@ -21,88 +25,79 @@ namespace AppTicketV2.Controllers
             _context = context;
         }
 
-        // GET: api/Portals
-        //[HttpGet]
-        //public async Task<ActionResult<IEnumerable<Portal>>> GetPortal()
-        //{
-        //    return await _context.Portal.ToListAsync();
-        //}
+        [HttpGet]
+        public async Task<IEnumerable<PortalViewModel>> GetPortalsAsync()
+        {
 
-        //// GET: api/Portals/5
-        //[HttpGet("{id}")]
-        //public async Task<ActionResult<Portal>> GetPortal(int id)
-        //{
-        //    var portal = await _context.Portal.FindAsync(id);
+            IEnumerable<Portal> Portals = PortalData.GetAllPortals(_context);
+            List<PortalViewModel> output = new List<PortalViewModel>();
+            Portals.ToList().ForEach(w =>
+            {
+                PortalViewModel Portal = new PortalViewModel();
+                Portal = PortalMapper.PortalToPortalViewModel(w);
 
-        //    if (portal == null)
-        //    {
-        //        return NotFound();
-        //    }
+                output.Add(Portal);
+            });
 
-        //    return portal;
-        //}
+            return output;
+        }
 
-        //// PUT: api/Portals/5
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPut("{id}")]
-        //public async Task<IActionResult> PutPortal(int id, Portal portal)
-        //{
-        //    if (id != portal.PortalID)
-        //    {
-        //        return BadRequest();
-        //    }
+        [HttpGet("{id}")]
+        public async Task<PortalViewModel> GetPortal(int id)
+        {
+            var entity = await PortalData.GetPortalById(_context, id);
 
-        //    _context.Entry(portal).State = EntityState.Modified;
+            if (entity == null)
+            {
+                return new PortalViewModel();
+            }
+            PortalViewModel vm = new PortalViewModel();
+            vm = PortalMapper.PortalToPortalViewModel(entity);
+            return vm;
+        }
 
-        //    try
-        //    {
-        //        await _context.SaveChangesAsync();
-        //    }
-        //    catch (DbUpdateConcurrencyException)
-        //    {
-        //        if (!PortalExists(id))
-        //        {
-        //            return NotFound();
-        //        }
-        //        else
-        //        {
-        //            throw;
-        //        }
-        //    }
+        [HttpPut("{id}")]
+        public async Task<APIOutput> PutPortal(PortalDTO dto)
+        {
+            APIOutput output = new APIOutput();
+            var entity = await PortalData.GetPortalById(_context, dto.PortalID);
+            if (entity == null)
+            {
+                output.status = "false";
+                output.message = "چنین پورتالی یافت نشد.";
+                return output;
+            }
+            PortalViewModel vm = PortalMapper.PortalDtoToPortalViewModel(dto);
+            entity = PortalMapper.PortalViewModelToPortal(vm, entity);
+            await _context.SaveChangesAsync();
 
-        //    return NoContent();
-        //}
 
-        //// POST: api/Portals
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPost]
-        //public async Task<ActionResult<Portal>> PostPortal(Portal portal)
-        //{
-        //    _context.Portal.Add(portal);
-        //    await _context.SaveChangesAsync();
 
-        //    return CreatedAtAction("GetPortal", new { id = portal.PortalID }, portal);
-        //}
+            return output;
+        }
 
-        //// DELETE: api/Portals/5
-        //[HttpDelete("{id}")]
-        //public async Task<IActionResult> DeletePortal(int id)
-        //{
-        //    var portal = await _context.Portal.FindAsync(id);
-        //    if (portal == null)
-        //    {
-        //        return NotFound();
-        //    }
+        [HttpPost]
+        public async Task<APIOutput> PostPortals([FromBody] PortalDTO dto)
+        {
+            APIOutput output = new APIOutput();
+            PortalViewModel vm = PortalMapper.PortalDtoToPortalViewModel(dto);
+            Portal entity = new Portal();
+            entity = PortalMapper.PortalViewModelToPortal(vm, entity);
+            //_context.Organizations.Add(organization);
+            PortalData.CreatePortal(_context, entity);
+            await _context.SaveChangesAsync();
+            return output;
+            // return CreatedAtAction("GetOrganization", new { id = organization.OrganizationID }, organization);
+        }
 
-        //    _context.Portal.Remove(portal);
-        //    await _context.SaveChangesAsync();
+        [HttpDelete("{id}")]
+        public APIOutput DeletePortal(int id)
+        {
+            APIOutput output = new APIOutput();
+            PortalData.DeletePortal(_context, id);
+            _context.SaveChanges();
 
-        //    return NoContent();
-        //}
-
-        //private bool PortalExists(int id)
-        //{
-        //    return _context.Portal.Any(e => e.PortalID == id);
-        //}
+            return output;
+        }
     }
 }

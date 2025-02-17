@@ -4,6 +4,7 @@ using DataAccess.EF.DBContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccess.Migrations
 {
     [DbContext(typeof(AppTicketDBContext))]
-    partial class AppTicketDBContextModelSnapshot : ModelSnapshot
+    [Migration("20250217200721_mig-14031129-add-WidgetPropertyID-to-portal")]
+    partial class mig14031129addWidgetPropertyIDtoportal
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -170,7 +173,7 @@ namespace DataAccess.Migrations
                     b.Property<int>("WidgetID")
                         .HasColumnType("int");
 
-                    b.Property<int?>("WidgetPropertyID")
+                    b.Property<int>("WidgetPropertyID")
                         .HasColumnType("int");
 
                     b.HasKey("PortalID");
@@ -295,7 +298,9 @@ namespace DataAccess.Migrations
 
                     b.HasOne("DataAccess.EF.Models.WidgetProperty", "WidgetProperty")
                         .WithMany()
-                        .HasForeignKey("WidgetPropertyID");
+                        .HasForeignKey("WidgetPropertyID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Organization");
 
