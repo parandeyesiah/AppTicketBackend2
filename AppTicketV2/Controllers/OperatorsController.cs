@@ -7,6 +7,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using DataAccess.EF.DBContext;
 using DataAccess.EF.Models;
+using AppTicketV2.DTOs;
+using AppTicketV2.Mappers;
+using AppTicketV2.ViewModels;
+using DataAccess;
 
 namespace AppTicketV2.Controllers
 {
@@ -21,88 +25,79 @@ namespace AppTicketV2.Controllers
             _context = context;
         }
 
-        // GET: api/Operators
-        //[HttpGet]
-        //public async Task<ActionResult<IEnumerable<Operator>>> GetOperator()
-        //{
-        //    return await _context.Operator.ToListAsync();
-        //}
+        [HttpGet]
+        public async Task<IEnumerable<OperatorViewModel>> GetOperatorsAsync()
+        {
 
-        //// GET: api/Operators/5
-        //[HttpGet("{id}")]
-        //public async Task<ActionResult<Operator>> GetOperator(int id)
-        //{
-        //    var @operator = await _context.Operator.FindAsync(id);
+            IEnumerable<Operator> Operators = OperatorData.GetAllOperators(_context);
+            List<OperatorViewModel> output = new List<OperatorViewModel>();
+            Operators.ToList().ForEach(w =>
+            {
+                OperatorViewModel Operator = new OperatorViewModel();
+                Operator = OperatorMapper.OperatorToOperatorViewModel(w);
 
-        //    if (@operator == null)
-        //    {
-        //        return NotFound();
-        //    }
+                output.Add(Operator);
+            });
 
-        //    return @operator;
-        //}
+            return output;
+        }
 
-        //// PUT: api/Operators/5
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPut("{id}")]
-        //public async Task<IActionResult> PutOperator(int id, Operator @operator)
-        //{
-        //    if (id != @operator.OperatorID)
-        //    {
-        //        return BadRequest();
-        //    }
+        [HttpGet("{id}")]
+        public async Task<OperatorViewModel> GetOperator(int id)
+        {
+            var entity = await OperatorData.GetOperatorById(_context, id);
 
-        //    _context.Entry(@operator).State = EntityState.Modified;
+            if (entity == null)
+            {
+                return new OperatorViewModel();
+            }
+            OperatorViewModel vm = new OperatorViewModel();
+            vm = OperatorMapper.OperatorToOperatorViewModel(entity);
+            return vm;
+        }
 
-        //    try
-        //    {
-        //        await _context.SaveChangesAsync();
-        //    }
-        //    catch (DbUpdateConcurrencyException)
-        //    {
-        //        if (!OperatorExists(id))
-        //        {
-        //            return NotFound();
-        //        }
-        //        else
-        //        {
-        //            throw;
-        //        }
-        //    }
+        [HttpPut("{id}")]
+        public async Task<APIOutput> PutOperator(OperatorDTO dto)
+        {
+            APIOutput output = new APIOutput();
+            var entity = await OperatorData.GetOperatorById(_context, dto.OperatorID);
+            if (entity == null)
+            {
+                output.status = "false";
+                output.message = "چنین اپراتوری یافت نشد.";
+                return output;
+            }
+            OperatorViewModel vm = OperatorMapper.OperatorDtoToOperatorViewModel(dto);
+            entity = OperatorMapper.OperatorViewModelToOperator(vm, entity);
+            await _context.SaveChangesAsync();
 
-        //    return NoContent();
-        //}
 
-        //// POST: api/Operators
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPost]
-        //public async Task<ActionResult<Operator>> PostOperator(Operator @operator)
-        //{
-        //    _context.Operator.Add(@operator);
-        //    await _context.SaveChangesAsync();
 
-        //    return CreatedAtAction("GetOperator", new { id = @operator.OperatorID }, @operator);
-        //}
+            return output;
+        }
 
-        //// DELETE: api/Operators/5
-        //[HttpDelete("{id}")]
-        //public async Task<IActionResult> DeleteOperator(int id)
-        //{
-        //    var @operator = await _context.Operator.FindAsync(id);
-        //    if (@operator == null)
-        //    {
-        //        return NotFound();
-        //    }
+        [HttpPost]
+        public async Task<APIOutput> PostOperators([FromBody] OperatorDTO dto)
+        {
+            APIOutput output = new APIOutput();
+            OperatorViewModel vm = OperatorMapper.OperatorDtoToOperatorViewModel(dto);
+            Operator entity = new Operator();
+            entity = OperatorMapper.OperatorViewModelToOperator(vm, entity);
+            //_context.Organizations.Add(organization);
+            OperatorData.CreateOperator(_context, entity);
+            await _context.SaveChangesAsync();
+            return output;
+            // return CreatedAtAction("GetOrganization", new { id = organization.OrganizationID }, organization);
+        }
 
-        //    _context.Operator.Remove(@operator);
-        //    await _context.SaveChangesAsync();
+        [HttpDelete("{id}")]
+        public APIOutput DeleteOperator(int id)
+        {
+            APIOutput output = new APIOutput();
+            OperatorData.DeleteOperator(_context, id);
+            _context.SaveChanges();
 
-        //    return NoContent();
-        //}
-
-        //private bool OperatorExists(int id)
-        //{
-        //    return _context.Operator.Any(e => e.OperatorID == id);
-        //}
+            return output;
+        }
     }
 }

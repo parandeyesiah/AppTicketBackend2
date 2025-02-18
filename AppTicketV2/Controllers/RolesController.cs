@@ -7,6 +7,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using DataAccess.EF.DBContext;
 using DataAccess.EF.Models;
+using AppTicketV2.DTOs;
+using AppTicketV2.Mappers;
+using AppTicketV2.ViewModels;
+using DataAccess;
 
 namespace AppTicketV2.Controllers
 {
@@ -21,88 +25,79 @@ namespace AppTicketV2.Controllers
             _context = context;
         }
 
-        // GET: api/Roles
-        //[HttpGet]
-        //public async Task<ActionResult<IEnumerable<Role>>> GetRole()
-        //{
-        //    return await _context.Role.ToListAsync();
-        //}
+        [HttpGet]
+        public async Task<IEnumerable<RoleViewModel>> GetRolesAsync()
+        {
 
-        //// GET: api/Roles/5
-        //[HttpGet("{id}")]
-        //public async Task<ActionResult<Role>> GetRole(int id)
-        //{
-        //    var role = await _context.Role.FindAsync(id);
+            IEnumerable<Role> Roles = RoleData.GetAllRoles(_context);
+            List<RoleViewModel> output = new List<RoleViewModel>();
+            Roles.ToList().ForEach(w =>
+            {
+                RoleViewModel Role = new RoleViewModel();
+                Role = RoleMapper.RoleToRoleViewModel(w);
 
-        //    if (role == null)
-        //    {
-        //        return NotFound();
-        //    }
+                output.Add(Role);
+            });
 
-        //    return role;
-        //}
+            return output;
+        }
 
-        //// PUT: api/Roles/5
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPut("{id}")]
-        //public async Task<IActionResult> PutRole(int id, Role role)
-        //{
-        //    if (id != role.RoleID)
-        //    {
-        //        return BadRequest();
-        //    }
+        [HttpGet("{id}")]
+        public async Task<RoleViewModel> GetRole(int id)
+        {
+            var entity = await RoleData.GetRoleById(_context, id);
 
-        //    _context.Entry(role).State = EntityState.Modified;
+            if (entity == null)
+            {
+                return new RoleViewModel();
+            }
+            RoleViewModel vm = new RoleViewModel();
+            vm = RoleMapper.RoleToRoleViewModel(entity);
+            return vm;
+        }
 
-        //    try
-        //    {
-        //        await _context.SaveChangesAsync();
-        //    }
-        //    catch (DbUpdateConcurrencyException)
-        //    {
-        //        if (!RoleExists(id))
-        //        {
-        //            return NotFound();
-        //        }
-        //        else
-        //        {
-        //            throw;
-        //        }
-        //    }
+        [HttpPut("{id}")]
+        public async Task<APIOutput> PutRole(RoleDTO dto)
+        {
+            APIOutput output = new APIOutput();
+            var entity = await RoleData.GetRoleById(_context, dto.RoleID);
+            if (entity == null)
+            {
+                output.status = "false";
+                output.message = "چنین اپراتوری یافت نشد.";
+                return output;
+            }
+            RoleViewModel vm = RoleMapper.RoleDtoToRoleViewModel(dto);
+            entity = RoleMapper.RoleViewModelToRole(vm, entity);
+            await _context.SaveChangesAsync();
 
-        //    return NoContent();
-        //}
 
-        //// POST: api/Roles
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPost]
-        //public async Task<ActionResult<Role>> PostRole(Role role)
-        //{
-        //    _context.Role.Add(role);
-        //    await _context.SaveChangesAsync();
 
-        //    return CreatedAtAction("GetRole", new { id = role.RoleID }, role);
-        //}
+            return output;
+        }
 
-        //// DELETE: api/Roles/5
-        //[HttpDelete("{id}")]
-        //public async Task<IActionResult> DeleteRole(int id)
-        //{
-        //    var role = await _context.Role.FindAsync(id);
-        //    if (role == null)
-        //    {
-        //        return NotFound();
-        //    }
+        [HttpPost]
+        public async Task<APIOutput> PostRoles([FromBody] RoleDTO dto)
+        {
+            APIOutput output = new APIOutput();
+            RoleViewModel vm = RoleMapper.RoleDtoToRoleViewModel(dto);
+            Role entity = new Role();
+            entity = RoleMapper.RoleViewModelToRole(vm, entity);
+            //_context.Organizations.Add(organization);
+            RoleData.CreateRole(_context, entity);
+            await _context.SaveChangesAsync();
+            return output;
+            // return CreatedAtAction("GetOrganization", new { id = organization.OrganizationID }, organization);
+        }
 
-        //    _context.Role.Remove(role);
-        //    await _context.SaveChangesAsync();
+        [HttpDelete("{id}")]
+        public APIOutput DeleteRole(int id)
+        {
+            APIOutput output = new APIOutput();
+            RoleData.DeleteRole(_context, id);
+            _context.SaveChanges();
 
-        //    return NoContent();
-        //}
-
-        //private bool RoleExists(int id)
-        //{
-        //    return _context.Role.Any(e => e.RoleID == id);
-        //}
+            return output;
+        }
     }
 }

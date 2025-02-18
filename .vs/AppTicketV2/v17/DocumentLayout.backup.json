@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\DataAccess\\Migrations\\20250217202219_mig-14031129-nullable-WidgetPropertyID-to-portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccess\\Migrations\\20250217202219_mig-14031129-nullable-WidgetPropertyID-to-portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\mappers\\portalmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\mappers\\portalmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\controllers\\operatorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\controllers\\operatorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC866CDC-CE25-470E-AF9B-B4F33F95C49C}|DataAccess\\DataAccess.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\dataaccess\\ef\\models\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC866CDC-CE25-470E-AF9B-B4F33F95C49C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\ef\\models\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC866CDC-CE25-470E-AF9B-B4F33F95C49C}|DataAccess\\DataAccess.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\dataaccess\\roledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC866CDC-CE25-470E-AF9B-B4F33F95C49C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\roledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\controllers\\portalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\controllers\\portalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC866CDC-CE25-470E-AF9B-B4F33F95C49C}|DataAccess\\DataAccess.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\dataaccess\\ef\\dbcontext\\appticketdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC866CDC-CE25-470E-AF9B-B4F33F95C49C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\ef\\dbcontext\\appticketdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\viewmodels\\operatorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\viewmodels\\operatorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC866CDC-CE25-470E-AF9B-B4F33F95C49C}|DataAccess\\DataAccess.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\dataaccess\\portaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC866CDC-CE25-470E-AF9B-B4F33F95C49C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\portaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\mappers\\operatormapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\mappers\\operatormapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\dtos\\operatordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\dtos\\operatordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC866CDC-CE25-470E-AF9B-B4F33F95C49C}|DataAccess\\DataAccess.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\dataaccess\\ef\\models\\operator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC866CDC-CE25-470E-AF9B-B4F33F95C49C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\ef\\models\\operator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC866CDC-CE25-470E-AF9B-B4F33F95C49C}|DataAccess\\DataAccess.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\dataaccess\\ef\\models\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC866CDC-CE25-470E-AF9B-B4F33F95C49C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\ef\\models\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC866CDC-CE25-470E-AF9B-B4F33F95C49C}|DataAccess\\DataAccess.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\dataaccess\\ef\\dbcontext\\appticketdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC866CDC-CE25-470E-AF9B-B4F33F95C49C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\ef\\dbcontext\\appticketdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\viewmodels\\widgetviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{AC866CDC-CE25-470E-AF9B-B4F33F95C49C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\organizationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\appticketv2\\controllers\\operatorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5978F1E9-B028-478E-9250-CC84F41E9855}|AppTicketV2\\AppTicketV2.csproj|solutionrelative:appticketv2\\controllers\\operatorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AC866CDC-CE25-470E-AF9B-B4F33F95C49C}|DataAccess\\DataAccess.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\dataaccess\\ef\\models\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC866CDC-CE25-470E-AF9B-B4F33F95C49C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\ef\\models\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -81,6 +93,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{AC866CDC-CE25-470E-AF9B-B4F33F95C49C}|DataAccess\\DataAccess.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\dataaccess\\migrations\\20250202204108_mig14031114.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC866CDC-CE25-470E-AF9B-B4F33F95C49C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20250202204108_mig14031114.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC866CDC-CE25-470E-AF9B-B4F33F95C49C}|DataAccess\\DataAccess.csproj|d:\\mohammad\\projects\\appticketv2\\appticketv2\\dataaccess\\migrations\\20250217202219_mig-14031129-nullable-widgetpropertyid-to-portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC866CDC-CE25-470E-AF9B-B4F33F95C49C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20250217202219_mig-14031129-nullable-widgetpropertyid-to-portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -95,53 +111,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250217202219_mig-14031129-nullable-WidgetPropertyID-to-portal.cs",
-              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\DataAccess\\Migrations\\20250217202219_mig-14031129-nullable-WidgetPropertyID-to-portal.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250217202219_mig-14031129-nullable-WidgetPropertyID-to-portal.cs",
-              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\DataAccess\\Migrations\\20250217202219_mig-14031129-nullable-WidgetPropertyID-to-portal.cs",
-              "RelativeToolTip": "DataAccess\\Migrations\\20250217202219_mig-14031129-nullable-WidgetPropertyID-to-portal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\Controllers\\RolesController.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "AppTicketV2\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T20:22:19.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PortalMapper.cs",
-              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Mappers\\PortalMapper.cs",
-              "RelativeDocumentMoniker": "AppTicketV2\\Mappers\\PortalMapper.cs",
-              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Mappers\\PortalMapper.cs",
-              "RelativeToolTip": "AppTicketV2\\Mappers\\PortalMapper.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABIAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T20:22:01.021Z",
+              "WhenOpened": "2025-02-18T19:50:40.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Portal.cs",
-              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\DataAccess\\EF\\Models\\Portal.cs",
-              "RelativeDocumentMoniker": "DataAccess\\EF\\Models\\Portal.cs",
-              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\DataAccess\\EF\\Models\\Portal.cs",
-              "RelativeToolTip": "DataAccess\\EF\\Models\\Portal.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA9wBMAAAATAAAAAAAAAA==",
+              "Title": "RoleData.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\DataAccess\\RoleData.cs",
+              "RelativeDocumentMoniker": "DataAccess\\RoleData.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\DataAccess\\RoleData.cs",
+              "RelativeToolTip": "DataAccess\\RoleData.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAnwBIAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T20:04:39.282Z",
+              "WhenOpened": "2025-02-18T19:27:58.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PortalData.cs",
-              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\DataAccess\\PortalData.cs",
-              "RelativeDocumentMoniker": "DataAccess\\PortalData.cs",
-              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\DataAccess\\PortalData.cs",
-              "RelativeToolTip": "DataAccess\\PortalData.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBYAAAAIAAAAAAAAAA==",
+              "Title": "OperatorMapper.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Mappers\\OperatorMapper.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\Mappers\\OperatorMapper.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Mappers\\OperatorMapper.cs",
+              "RelativeToolTip": "AppTicketV2\\Mappers\\OperatorMapper.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA+wDQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T19:17:08.677Z",
+              "WhenOpened": "2025-02-18T19:04:50.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OperatorViewModel.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\ViewModels\\OperatorViewModel.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\ViewModels\\OperatorViewModel.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\ViewModels\\OperatorViewModel.cs",
+              "RelativeToolTip": "AppTicketV2\\ViewModels\\OperatorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T19:02:08.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OperatorDTO.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\DTOs\\OperatorDTO.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\DTOs\\OperatorDTO.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\DTOs\\OperatorDTO.cs",
+              "RelativeToolTip": "AppTicketV2\\DTOs\\OperatorDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T19:01:10.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OperatorsController.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\OperatorsController.cs",
+              "RelativeDocumentMoniker": "AppTicketV2\\Controllers\\OperatorsController.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\OperatorsController.cs",
+              "RelativeToolTip": "AppTicketV2\\Controllers\\OperatorsController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T17:36:56.513Z",
               "EditorCaption": ""
             },
             {
@@ -152,14 +194,51 @@
               "RelativeDocumentMoniker": "AppTicketV2\\Controllers\\PortalsController.cs",
               "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\PortalsController.cs",
               "RelativeToolTip": "AppTicketV2\\Controllers\\PortalsController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAApwFcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwB8AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T20:19:30.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
+              "Title": "Operator.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\DataAccess\\EF\\Models\\Operator.cs",
+              "RelativeDocumentMoniker": "DataAccess\\EF\\Models\\Operator.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\DataAccess\\EF\\Models\\Operator.cs",
+              "RelativeToolTip": "DataAccess\\EF\\Models\\Operator.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T19:00:25.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Portal.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\DataAccess\\EF\\Models\\Portal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\EF\\Models\\Portal.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\DataAccess\\EF\\Models\\Portal.cs",
+              "RelativeToolTip": "DataAccess\\EF\\Models\\Portal.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA9wBMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T20:04:39.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250217202219_mig-14031129-nullable-WidgetPropertyID-to-portal.cs",
+              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\DataAccess\\Migrations\\20250217202219_mig-14031129-nullable-WidgetPropertyID-to-portal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250217202219_mig-14031129-nullable-WidgetPropertyID-to-portal.cs",
+              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\DataAccess\\Migrations\\20250217202219_mig-14031129-nullable-WidgetPropertyID-to-portal.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20250217202219_mig-14031129-nullable-WidgetPropertyID-to-portal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T20:22:19.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Widget.cs",
               "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\DataAccess\\EF\\Models\\Widget.cs",
               "RelativeDocumentMoniker": "DataAccess\\EF\\Models\\Widget.cs",
@@ -171,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "WidgetData.cs",
               "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\DataAccess\\WidgetData.cs",
               "RelativeDocumentMoniker": "DataAccess\\WidgetData.cs",
@@ -179,24 +258,11 @@
               "RelativeToolTip": "DataAccess\\WidgetData.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAqwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T19:17:10.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T19:17:10.124Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "OperatorsController.cs",
-              "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\OperatorsController.cs",
-              "RelativeDocumentMoniker": "AppTicketV2\\Controllers\\OperatorsController.cs",
-              "ToolTip": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\OperatorsController.cs",
-              "RelativeToolTip": "AppTicketV2\\Controllers\\OperatorsController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T17:36:56.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "AppTicketDBContext.cs",
               "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\DataAccess\\EF\\DBContext\\AppTicketDBContext.cs",
               "RelativeDocumentMoniker": "DataAccess\\EF\\DBContext\\AppTicketDBContext.cs",
@@ -204,12 +270,11 @@
               "RelativeToolTip": "DataAccess\\EF\\DBContext\\AppTicketDBContext.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAAACwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T20:49:45.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-02T20:49:45.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "WidgetViewModel.cs",
               "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\ViewModels\\WidgetViewModel.cs",
               "RelativeDocumentMoniker": "AppTicketV2\\ViewModels\\WidgetViewModel.cs",
@@ -217,12 +282,11 @@
               "RelativeToolTip": "AppTicketV2\\ViewModels\\WidgetViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T19:24:37.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T19:24:37.783Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "WidgetController.cs",
               "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\WidgetController.cs",
               "RelativeDocumentMoniker": "AppTicketV2\\Controllers\\WidgetController.cs",
@@ -235,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\appsettings.json",
               "RelativeDocumentMoniker": "AppTicketV2\\appsettings.json",
@@ -247,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "20250202204108_mig14031114.cs",
               "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\DataAccess\\Migrations\\20250202204108_mig14031114.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250202204108_mig14031114.cs",
@@ -259,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Program.cs",
               "RelativeDocumentMoniker": "AppTicketV2\\Program.cs",
@@ -271,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "OrganizationDTO.cs",
               "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\DTOs\\OrganizationDTO.cs",
               "RelativeDocumentMoniker": "AppTicketV2\\DTOs\\OrganizationDTO.cs",
@@ -283,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "OrganizationViewModel.cs",
               "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\ViewModels\\OrganizationViewModel.cs",
               "RelativeDocumentMoniker": "AppTicketV2\\ViewModels\\OrganizationViewModel.cs",
@@ -295,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Organization.cs",
               "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\DataAccess\\EF\\Models\\Organization.cs",
               "RelativeDocumentMoniker": "DataAccess\\EF\\Models\\Organization.cs",
@@ -307,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "OrganizationMapper.cs",
               "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Mappers\\OrganizationMapper.cs",
               "RelativeDocumentMoniker": "AppTicketV2\\Mappers\\OrganizationMapper.cs",
@@ -319,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "OrganizationData.cs",
               "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\DataAccess\\OrganizationData.cs",
               "RelativeDocumentMoniker": "DataAccess\\OrganizationData.cs",
@@ -332,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "OrganizationsController.cs",
               "DocumentMoniker": "D:\\Mohammad\\Projects\\AppTicketV2\\AppTicketV2\\AppTicketV2\\Controllers\\OrganizationsController.cs",
               "RelativeDocumentMoniker": "AppTicketV2\\Controllers\\OrganizationsController.cs",
