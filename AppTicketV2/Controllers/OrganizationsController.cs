@@ -32,7 +32,7 @@ namespace AppTicketV2.Controllers
         public async Task<IEnumerable<OrganizationViewModel>> GetOrganizations()
         {
             //return await _context.Organizations.ToListAsync();
-            IEnumerable<Organization> orgs =  OrganizationData.GetAllOrganizations(_context);
+            IEnumerable<Organization> orgs =await  OrganizationData.GetAllOrganizations(_context);
             List<OrganizationViewModel> output = new List<OrganizationViewModel>();
             orgs.ToList().ForEach(org => {
                 OrganizationViewModel organ = new OrganizationViewModel();

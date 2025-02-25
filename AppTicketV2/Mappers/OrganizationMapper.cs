@@ -20,6 +20,10 @@ namespace AppTicketV2.Mappers
             OrganizationViewModel organ = new OrganizationViewModel();
             organ.OrganizationID = organization.OrganizationID;
             organ.OrganizationName = organization.OrganizationName;
+            organ.Address = organization.Address;
+            organ.CreatedDate = organization.CreatedDate;
+            organ.OrganizationType = organization.OrganizationType;
+            organ.Tel = organization.Tel;
             return organ;
 
         }
@@ -28,6 +32,10 @@ namespace AppTicketV2.Mappers
         {
             
             orgEntity.OrganizationName = orgvm.OrganizationName;
+            orgEntity.Address = orgvm.Address;
+            orgEntity.CreatedDate= orgvm.CreatedDate;
+            orgEntity.OrganizationType=orgvm.OrganizationType.ToString();
+            orgEntity.Tel = orgvm.Tel;
 
             return orgEntity;
         }
